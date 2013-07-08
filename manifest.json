@@ -1,0 +1,12 @@
+{
+"name" : "TestFirst",
+"version": "1.0",
+"description":" testing the Google Chrome Extensions ",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "popup": "popup.html"
+  },
+  "permissions": [
+    "http://api.flickr.com/"
+  ]
+}
